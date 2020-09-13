@@ -8,8 +8,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+//OrangeHRM login StepDef mapped from feature file
 public class StepDefinition {
-	
+	//driver instance 
 	WebDriver driver;
 	
 	@Given("Application URL")
